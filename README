@@ -1,0 +1,105 @@
+The Picnic Digital Signature Algorithm
+Update for Round 3
+2020-10-01
+
+Melissa Chase, David Derler, Steven Goldfeder, Daniel Kales, Jonathan Katz, Vladimir
+Kolesnikov, Claudio Orlandi, Sebastian Ramacher, Christian Rechberger, Daniel
+Slamanig, Xiao Wang, Greg Zaverucha
+
+Submission package for the NIST Post-Quantum Cryptography Standardization 
+project 
+https://csrc.nist.gov/projects/post-quantum-cryptography/post-quantum-cryptography-standardization
+
+More information about Picnic is available at
+https://microsoft.github.io/Picnic/
+
+All software in this package was tested under Linux and builds with make. 
+
+
+Package Contents
+
+picnic_submission_round3/
+├── Additional_Implementations      Optimized for specific processor features, AVX2 and ARM NEON
+│   ├── picnic3l1-avx2
+│   ├── picnic3l1-neon
+│   ├── picnic3l1-sse2
+│   ├── picnic3l3-avx2
+│   ├── picnic3l3-neon
+│   ├── picnic3l3-sse2
+│   ├── picnic3l5-avx2
+│   ├── picnic3l5-neon
+│   ├── picnic3l5-sse2
+│   ├── picnicl1fs-avx2
+│   ├── picnicl1fs-neon
+│   ├── picnicl1fs-sse2
+│   ├── picnicl1full-avx2
+│   ├── picnicl1full-neon
+│   ├── picnicl1full-sse2
+│   ├── picnicl1ur-avx2
+│   ├── picnicl1ur-neon
+│   ├── picnicl1ur-sse2
+│   ├── picnicl3fs-avx2
+│   ├── picnicl3fs-neon
+│   ├── picnicl3fs-sse2
+│   ├── picnicl3full-avx2
+│   ├── picnicl3full-neon
+│   ├── picnicl3full-sse2
+│   ├── picnicl3ur-avx2
+│   ├── picnicl3ur-neon
+│   ├── picnicl3ur-sse2
+│   ├── picnicl5fs-avx2
+│   ├── picnicl5fs-neon
+│   ├── picnicl5fs-sse2
+│   ├── picnicl5full-avx2
+│   ├── picnicl5full-neon
+│   ├── picnicl5full-sse2
+│   ├── picnicl5ur-avx2
+│   ├── picnicl5ur-neon
+│   └── picnicl5ur-sse2
+├── KAT                         One set KATs per parameter set
+│   ├── picnic3l1
+│   ├── picnic3l3
+│   ├── picnic3l5
+│   ├── picnicl1fs
+│   ├── picnicl1full
+│   ├── picnicl1ur
+│   ├── picnicl3fs
+│   ├── picnicl3full
+│   ├── picnicl3ur
+│   ├── picnicl5fs
+│   ├── picnicl5full
+│   └── picnicl5ur
+├── Optimized_Implementation    Optimized C implementation
+│   ├── picnic3l1
+│   ├── picnic3l3
+│   ├── picnic3l5
+│   ├── picnicl1fs
+│   ├── picnicl1full
+│   ├── picnicl1ur
+│   ├── picnicl3fs
+│   ├── picnicl3full
+│   ├── picnicl3ur
+│   ├── picnicl5fs
+│   ├── picnicl5full
+│   └── picnicl5ur
+├── README
+├── Reference_Implementation        Unoptimized reference implementation
+│   ├── picnic3l1
+│   ├── picnic3l3
+│   ├── picnic3l5
+│   ├── picnicl1fs
+│   ├── picnicl1full
+│   ├── picnicl1ur
+│   ├── picnicl3fs
+│   ├── picnicl3full
+│   ├── picnicl3ur
+│   ├── picnicl5fs
+│   ├── picnicl5full
+│   └── picnicl5ur
+└── Supporting_Documentation
+    ├── Picnic_Changes_Round_3.pdf
+    ├── Picnic_Cover_Sheet.pdf
+    ├── Picnic_Design-v3.0.pdf      Design and security analysis document
+    └── Picnic_Spec-v3.0.pdf        Specification document
+
+
