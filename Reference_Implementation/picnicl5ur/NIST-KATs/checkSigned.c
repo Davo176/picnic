@@ -61,7 +61,7 @@ main()
     }
 
     
-    sprintf(fn_req, "signed_java_%s.rsp", suffix);
+    sprintf(fn_req, "signed_csharp_%s.rsp", suffix);
 
 
     for (int i=0; i<48; i++)

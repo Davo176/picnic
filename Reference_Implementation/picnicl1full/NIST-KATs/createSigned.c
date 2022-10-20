@@ -62,9 +62,9 @@ main()
     }
 
     // Create the REQUEST file
-    sprintf(fn_req, "keypairs_java_%s.rsp", suffix);
+    sprintf(fn_req, "keypairs_csharp_%s.rsp", suffix);
 
-    sprintf(fn_rsp, "signed_java_ref_%s.rsp", suffix);
+    sprintf(fn_rsp, "signed_csharp_ref_%s.rsp", suffix);
     if ( (fp_rsp = fopen(fn_rsp, "w")) == NULL ) {
         printf("Couldn't open <%s> for write\n", fn_rsp);
         return KAT_FILE_OPEN_ERROR;
