@@ -7,9 +7,8 @@ do
     cd $folder
     echo $folder
     make all
-    make checksign
-    echo $folder
-    ./NIST-KATs/checkSigned
+    make nistkat
+    ./NIST-KATs/addRand
+    pwd
     cd ..
-    
 done

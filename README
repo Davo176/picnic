@@ -1,3 +1,14 @@
+Additional Testing
+to produce additional random test cases
+./runRandom.sh
+for interoperability testing:
+again manually swap between java and csharp in the code
+then run for each:
+./runCreateKeyPairs.sh
+./runCreateSigned.sh
+./runCheckSigned.sh
+
+
 The Picnic Digital Signature Algorithm
 Update for Round 3
 2020-10-01
